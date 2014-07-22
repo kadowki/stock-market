@@ -30,7 +30,6 @@ Portfolio.prototype.del = function(symbol, amount){
   }
 };
 
-// PRIVATE HELPER FUNCTIONS ///
 
 function findStock(stocks, symbol){
   for(var i = 0; i < stocks.length; i++){
